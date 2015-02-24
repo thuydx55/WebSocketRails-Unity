@@ -6,7 +6,7 @@ Port of JavaScript client provided by https://github.com/websocket-rails/websock
 
 Refer to https://github.com/websocket-rails/websocket-rails to learn more about WebSocketRails
 
-Refer to https://github.com/KLab/websocket-unitymobile to learn more about WebSocket-Sharp
+Refer to https://github.com/KLab/websocket-unitymobile to learn more about WebSocket-Sharp for Unity
 
 Refer to http://wiki.unity3d.com/index.php?title=JSONObject to learn more about JSONObject
 
