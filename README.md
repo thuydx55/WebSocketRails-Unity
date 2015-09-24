@@ -16,9 +16,9 @@ Refer to http://wiki.unity3d.com/index.php?title=JSONObject to learn more about 
 private WebSocketRailsDispatcher Dispatcher;
 
 void Awake () {
-	Dispatcher = new WebSocketRailsDispatcher(new Uri(Constants.SOCKET_URL));
+	Dispatcher = new WebSocketRailsDispatcher(new Uri("ws://your.awesome.url"));
 	Dispatcher.Connect();
-	Dispatcher.Bind(Constants.SOCKET_EVENT_CONNECTED, clientConnected);
+	Dispatcher.Bind("connected", clientConnected);
 }
 
 private void clientConnected(object sender, WebSocketRailsDataEventArgs e)
